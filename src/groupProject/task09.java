@@ -1,5 +1,7 @@
 package groupProject;
 
+import java.util.Arrays;
+
 public class task09 {
     public static void main(String[] args) {
 
@@ -16,5 +18,12 @@ public class task09 {
             }
         }
         System.out.println("The second largest number in the array is: " + secondLargest);
+
+        System.out.println("----------------------------");
+
+       int num[] = {3, 2, 45, 6};
+       Arrays.sort(num);
+        System.out.println("The second largest number is "+num[num.length-2]);
+
     }
 }
